@@ -1,0 +1,42 @@
+@import url('./global.css');
+
+main h2,
+.options-container{
+    margin-bottom: 1rem;
+}
+
+main h2{
+    font-weight: 600;
+}
+
+.input-container{
+    padding: 0.3rem;
+}
+
+.input-container input{
+    margin: 0 0.5rem;
+}
+
+#form-submit, main > a{
+    width: 100%;
+    max-width: 13rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    margin: auto;
+}
+
+#form-submit{
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 1px solid gray;
+    background-color: rgb(203, 203, 203);
+}
+
+#form-submit:hover{
+    background-color: rgb(193, 193, 193);
+}
+
+#form-submit:active{
+    background-color: rgb(210, 210, 210);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Jogo da Forca!</title>
+   <link rel="stylesheet" href="../css/game.css">
+   <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+   <header>
+      <h1>Jogo da Forca!</h1>
+      <p>Criado por: Breno Pinna</p>
+   </header>
+   <main>
+      <div class="header centraliza">
+         <span>Tema: <span class="tema"></span></span>
+         <input type="text" name="chute" id="chute" placeholder="Chute:">
+      </div><!--header-->
+      <div class="chutes centraliza">
+         <span>Chutes restantes: <span id="chutes-restantes">6</span></span>
+         <span>Chutes: <span id="chutes-anteriores"></span></span>
+      </div><!--chutes-->
+      <div class="palavra">
+      </div><!--palavra-->
+      <p>
+         <span class="situacao"></span> 
+         <span class="resposta"></span>
+      </p>
+      <button onclick="location.reload()">Jogar Novamente</button>
+      <a href="../temas/temas.html"><button>Mudar Tema</button></a>
+   </main>
+<script src="../js/game.js" type="module"></script>
+</body>
+</html>
